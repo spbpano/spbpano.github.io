@@ -4,7 +4,7 @@
 <layer name="mytext"
 		keep="true"
        type="text"
-       align="lefttop" x="10" y="10"
+       align="center" x="10" y="10"
        html="[h1]Панорамы 360° и виртуальные туры в Санкт-Петербурге[/h1]"
        css="font-family:Arial; font-size:16px; color:#000000;"
        autowidth="auto"
