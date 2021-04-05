@@ -1,0 +1,26 @@
+﻿<krpano>
+
+	<!-- krpano 1.20.9 - Virtual Tour Skin -->
+<layer name="mytext"
+		keep="true"
+       type="text"
+       align="lefttop" x="10" y="10"
+       html="[h1]Панорамы 360° и виртуальные туры в Санкт-Петербурге[/h1]"
+       css="font-family:Arial; font-size:16px; color:#000000;"
+       autowidth="auto"
+       autoheight="auto"
+       vcenter="false"
+       padding="2"
+       wordwrap="true"
+       bg="true"
+       bgcolor="0xFFFFFF"
+       bgalpha="1.0"
+       bgborder="0"
+       bgroundedge="0"
+       bgshadow=""
+       txtshadow=""
+       mergedalpha="true"
+       interactivecontent="false"
+       onautosized=""
+       />
+</krpano>
