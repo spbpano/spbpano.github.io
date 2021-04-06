@@ -10,19 +10,30 @@
 	<meta http-equiv="x-ua-compatible" content="IE=edge" />
 	<style>
 		html { /*height:100vh;*/ }
-		body {  margin:0; padding:0; font-family:"Trebuchet MS", Helvetica, sans-serif; font-size:1rem; color:ForestGreen; background-color:#000000; }
-		.on_pano { margin-bottom:-3em;}
+		body {  margin:0; padding:0; font-family:"Trebuchet MS", Helvetica, sans-serif; font-size:1rem; color: #383838; background-color: #f9f9f9; }
+		.on_pano { margin-top:-3rem; z-index: 50; position: absolute; top: 49vh;
+					left: 11.5vw; width: 77%; margin-left: auto; margin-right: auto;
+					/*padding: rem;*/ background-color: rgba(44, 151 , 204, .77);}
+		.on_pano h1{ text-align: center; color: #f9f9f9;}
+		#pano { width: 100%; height: 100vh;  z-index: 30;}
+		.phone_wrap{ text-align: center; padding: 1.41rem; }
+		.phone{ text-decoration: none; color: #383838; }
 	</style>
 </head>
 <body>
 
 <script src="/360/vtour/tour.js"></script>
-	<h2 class="on_pano">Виртуальные туры</h2>
-<div id="pano" style="width:100%;height:100vh;">
+<div id="pano">
 	<noscript><table style="width:100%;height:90%;"><tr style="vertical-align:middle;"><td><div style="text-align:center;">ERROR:<br/><br/>Javascript not activated<br/><br/></div></td></tr></table></noscript>
 	<script>
 		embedpano({swf:"/360/vtour/tour.swf", xml:"/360/vtour/tour.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
 	</script>
+</div>
+<div class="on_pano">
+	<h1>Панорамы 360&#176; и Виртуальные туры в Санкт-Петербурге</h1>
+</div>
+<div class="phone_wrap">
+	<p><a class="phone" href="tel:+79992492194">👋 +7 999 249·21·94</a></p>
 </div>
 
 </body>
